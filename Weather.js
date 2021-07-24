@@ -66,6 +66,7 @@ const weatherOptions = {
 };
 
 export default function Weather({ temp, condition }) {
+    console.log(condition);
     return (
         <LinearGradient
             colors={weatherOptions[condition].gradient}
